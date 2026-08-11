@@ -1,0 +1,140 @@
+[0.263s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.263s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x747e83b047d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x747e83b04470>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x747e83b04470>>, mixin_verb=('build',))
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.372s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aroc/SeteroCoba'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/camset) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/camset) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/camset) by extension 'ignore_ament_install'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/camset) by extensions ['colcon_pkg']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/camset) by extension 'colcon_pkg'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/camset) by extensions ['colcon_meta']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/camset) by extension 'colcon_meta'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/camset) by extensions ['ros']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/camset) by extension 'ros'
+[0.423s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camset' with type 'ros.ament_python' and name 'camset'
+[0.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.485s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/aroc/Imangebro/install
+[0.486s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/aroc/BismilahNasional/install
+[0.486s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/aroc/mata-kuda/install
+[0.488s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 44 installed packages in /home/aroc/RobotisSoccer2Yaw/install
+[0.489s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/aroc/main_task26/install
+[0.491s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 36 installed packages in /home/aroc/ros2iwandwi/install
+[0.496s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 37 installed packages in /home/aroc/aroc2/install
+[0.500s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/aroc/aroc2/src/op3_advanced_detector/install
+[0.501s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/aroc/headtil/install
+[0.501s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/aroc/visioncpp/install
+[0.504s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 384 installed packages in /opt/ros/jazzy
+[0.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'camset' build argument 'cmake_args' from command line to 'None'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'camset' build argument 'cmake_target' from command line to 'None'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'camset' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'camset' build argument 'cmake_clean_cache' from command line to 'False'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'camset' build argument 'cmake_clean_first' from command line to 'False'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'camset' build argument 'cmake_force_configure' from command line to 'False'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'camset' build argument 'ament_cmake_args' from command line to 'None'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'camset' build argument 'catkin_cmake_args' from command line to 'None'
+[0.866s] Level 5:colcon.colcon_core.verb:set package 'camset' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.866s] DEBUG:colcon.colcon_core.verb:Building package 'camset' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aroc/SeteroCoba/build/camset', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aroc/SeteroCoba/install/camset', 'merge_install': False, 'path': '/home/aroc/SeteroCoba/src/camset', 'symlink_install': True, 'test_result_base': None}
+[0.866s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.867s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.868s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aroc/SeteroCoba/src/camset' with build type 'ament_python'
+[0.868s] Level 1:colcon.colcon_core.shell:create_environment_hook('camset', 'ament_prefix_path')
+[0.877s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aroc/SeteroCoba/install/camset/share/camset/hook/ament_prefix_path.ps1'
+[0.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aroc/SeteroCoba/install/camset/share/camset/hook/ament_prefix_path.dsv'
+[0.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aroc/SeteroCoba/install/camset/share/camset/hook/ament_prefix_path.sh'
+[0.885s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.885s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.423s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aroc/SeteroCoba/src/camset'
+[1.423s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.423s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aroc/SeteroCoba/build/camset': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aroc/SeteroCoba/build/camset/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aroc/SeteroCoba/install/camset/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aroc/SeteroCoba/build/camset/build --no-deps symlink_data
+[4.993s] Level 1:colcon.colcon_core.shell:create_environment_hook('camset', 'pythonpath_develop')
+[4.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aroc/SeteroCoba/build/camset/share/camset/hook/pythonpath_develop.ps1'
+[4.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aroc/SeteroCoba/build/camset' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aroc/SeteroCoba/build/camset/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aroc/SeteroCoba/install/camset/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aroc/SeteroCoba/build/camset/build --no-deps symlink_data
+[4.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aroc/SeteroCoba/build/camset/share/camset/hook/pythonpath_develop.dsv'
+[4.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aroc/SeteroCoba/build/camset/share/camset/hook/pythonpath_develop.sh'
+[5.008s] Level 1:colcon.colcon_core.environment:checking '/home/aroc/SeteroCoba/install/camset' for CMake module files
+[5.008s] Level 1:colcon.colcon_core.environment:checking '/home/aroc/SeteroCoba/install/camset' for CMake config files
+[5.009s] Level 1:colcon.colcon_core.environment:checking '/home/aroc/SeteroCoba/install/camset/lib'
+[5.009s] Level 1:colcon.colcon_core.environment:checking '/home/aroc/SeteroCoba/install/camset/bin'
+[5.010s] Level 1:colcon.colcon_core.environment:checking '/home/aroc/SeteroCoba/install/camset/lib/pkgconfig/camset.pc'
+[5.010s] Level 1:colcon.colcon_core.environment:checking '/home/aroc/SeteroCoba/install/camset/lib/python3.12/site-packages'
+[5.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('camset', 'pythonpath')
+[5.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aroc/SeteroCoba/install/camset/share/camset/hook/pythonpath.ps1'
+[5.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aroc/SeteroCoba/install/camset/share/camset/hook/pythonpath.dsv'
+[5.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aroc/SeteroCoba/install/camset/share/camset/hook/pythonpath.sh'
+[5.014s] Level 1:colcon.colcon_core.environment:checking '/home/aroc/SeteroCoba/install/camset/bin'
+[5.014s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camset)
+[5.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/aroc/SeteroCoba/install/camset/share/camset/package.ps1'
+[5.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aroc/SeteroCoba/install/camset/share/camset/package.dsv'
+[5.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/aroc/SeteroCoba/install/camset/share/camset/package.sh'
+[5.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/aroc/SeteroCoba/install/camset/share/camset/package.bash'
+[5.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/aroc/SeteroCoba/install/camset/share/camset/package.zsh'
+[5.021s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aroc/SeteroCoba/install/camset/share/colcon-core/packages/camset)
+[5.021s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.022s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.022s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.022s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.035s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.035s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.035s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.070s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.071s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aroc/SeteroCoba/install/local_setup.ps1'
+[5.073s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aroc/SeteroCoba/install/_local_setup_util_ps1.py'
+[5.076s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aroc/SeteroCoba/install/setup.ps1'
+[5.091s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aroc/SeteroCoba/install/local_setup.sh'
+[5.092s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aroc/SeteroCoba/install/_local_setup_util_sh.py'
+[5.093s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aroc/SeteroCoba/install/setup.sh'
+[5.103s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aroc/SeteroCoba/install/local_setup.bash'
+[5.104s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aroc/SeteroCoba/install/setup.bash'
+[5.114s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aroc/SeteroCoba/install/local_setup.zsh'
+[5.115s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aroc/SeteroCoba/install/setup.zsh'

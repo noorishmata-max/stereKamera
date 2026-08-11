@@ -1,0 +1,24 @@
+[2.243s] Invoking command in '/home/aroc/SeteroCoba/build/camset': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aroc/SeteroCoba/build/camset/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aroc/SeteroCoba/install/camset/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aroc/SeteroCoba/build/camset/build --no-deps symlink_data
+[3.164s] running develop
+[3.873s] running egg_info
+[3.873s] creating camset.egg-info
+[3.917s] writing camset.egg-info/PKG-INFO
+[3.918s] writing dependency_links to camset.egg-info/dependency_links.txt
+[3.918s] writing entry points to camset.egg-info/entry_points.txt
+[3.918s] writing requirements to camset.egg-info/requires.txt
+[3.919s] writing top-level names to camset.egg-info/top_level.txt
+[3.919s] writing manifest file 'camset.egg-info/SOURCES.txt'
+[4.012s] reading manifest file 'camset.egg-info/SOURCES.txt'
+[4.013s] writing manifest file 'camset.egg-info/SOURCES.txt'
+[4.065s] running build_ext
+[4.065s] Creating /home/aroc/SeteroCoba/install/camset/lib/python3.12/site-packages/camset.egg-link (link to .)
+[4.066s] Installing stereo_splitter script to /home/aroc/SeteroCoba/install/camset/lib/camset
+[4.067s] 
+[4.067s] Installed /home/aroc/SeteroCoba/build/camset
+[4.067s] running symlink_data
+[4.067s] creating /home/aroc/SeteroCoba/install/camset/share/ament_index
+[4.067s] creating /home/aroc/SeteroCoba/install/camset/share/ament_index/resource_index
+[4.068s] creating /home/aroc/SeteroCoba/install/camset/share/ament_index/resource_index/packages
+[4.068s] symbolically linking /home/aroc/SeteroCoba/build/camset/resource/camset -> /home/aroc/SeteroCoba/install/camset/share/ament_index/resource_index/packages
+[4.068s] symbolically linking /home/aroc/SeteroCoba/build/camset/package.xml -> /home/aroc/SeteroCoba/install/camset/share/camset
+[4.122s] Invoked command in '/home/aroc/SeteroCoba/build/camset' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aroc/SeteroCoba/build/camset/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aroc/SeteroCoba/install/camset/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aroc/SeteroCoba/build/camset/build --no-deps symlink_data

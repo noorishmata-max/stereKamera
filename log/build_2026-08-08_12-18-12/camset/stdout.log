@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating camset.egg-info
+writing camset.egg-info/PKG-INFO
+writing dependency_links to camset.egg-info/dependency_links.txt
+writing entry points to camset.egg-info/entry_points.txt
+writing requirements to camset.egg-info/requires.txt
+writing top-level names to camset.egg-info/top_level.txt
+writing manifest file 'camset.egg-info/SOURCES.txt'
+reading manifest file 'camset.egg-info/SOURCES.txt'
+writing manifest file 'camset.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/aroc/SeteroCoba/install/camset/lib/python3.12/site-packages/camset.egg-link (link to .)
+Installing stereo_splitter script to /home/aroc/SeteroCoba/install/camset/lib/camset
+
+Installed /home/aroc/SeteroCoba/build/camset
+running symlink_data
+creating /home/aroc/SeteroCoba/install/camset/share/ament_index
+creating /home/aroc/SeteroCoba/install/camset/share/ament_index/resource_index
+creating /home/aroc/SeteroCoba/install/camset/share/ament_index/resource_index/packages
+symbolically linking /home/aroc/SeteroCoba/build/camset/resource/camset -> /home/aroc/SeteroCoba/install/camset/share/ament_index/resource_index/packages
+symbolically linking /home/aroc/SeteroCoba/build/camset/package.xml -> /home/aroc/SeteroCoba/install/camset/share/camset

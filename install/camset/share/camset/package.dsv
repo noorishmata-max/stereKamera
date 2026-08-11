@@ -1,0 +1,9 @@
+source;share/camset/hook/pythonpath.ps1
+source;share/camset/hook/pythonpath.dsv
+source;share/camset/hook/pythonpath.sh
+source;share/camset/hook/ament_prefix_path.ps1
+source;share/camset/hook/ament_prefix_path.dsv
+source;share/camset/hook/ament_prefix_path.sh
+source;../../build/camset/share/camset/hook/pythonpath_develop.ps1
+source;../../build/camset/share/camset/hook/pythonpath_develop.dsv
+source;../../build/camset/share/camset/hook/pythonpath_develop.sh

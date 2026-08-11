@@ -1,0 +1,2 @@
+[console_scripts]
+stereo_splitter = camset.maincam:main

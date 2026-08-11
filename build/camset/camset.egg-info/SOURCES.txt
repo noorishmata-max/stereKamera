@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+camset/__init__.py
+camset/maincam.py
+camset.egg-info/PKG-INFO
+camset.egg-info/SOURCES.txt
+camset.egg-info/dependency_links.txt
+camset.egg-info/entry_points.txt
+camset.egg-info/requires.txt
+camset.egg-info/top_level.txt
+camset.egg-info/zip-safe
+resource/camset

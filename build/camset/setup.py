@@ -1,0 +1,1 @@
+/home/aroc/SeteroCoba/src/camset/setup.py
